@@ -1,0 +1,362 @@
+[000000] codo_init
+[000000]   platform: Windows
+[000000]   Found config.txt
+[000000]   
+[000000]     01 window_size 0 0 // window width, height
+[000000]     02 screen_size 0 0 // screen width, height (stretched to window) 
+[000000]     03 show_fps 0 // Draw frames per second in the corner
+[000000]     04 windowed 1 // 1 to start up in windowed mode
+[000000]     05 window_position -1 -1 // x and y position of window (-1, -1 to let the window manager decide)
+[000000]     new window position: -1, -1
+[000000]     06 frameless 0 // 1 to use a window with no frame
+[000000]     07 fullscreen_method 1 // 0 maximized window (linux)  1 borderless desktop-sized window  2 hardware fullscreen (warning: erratic behaviour under some drivers)
+[000000]     08 foreground_sleep_ms 2 // number of milliseconds to sleep each frame. Try 10 to conserve battery power
+[000000]     09 background_sleep_ms 10 // number of milliseconds to sleep each frame when running in the background
+[000000]     10 sessions 11 // number of times program has been run
+[000000]     11 rmb_key 0 // 0 for none  226 for LALT
+[000000]     12 desktop_path 
+[000000]     13 read_controllers_in_background 0
+[000000]     14 sound_volume 256 // 0..256
+[000000]     15 music_volume 256 // 0..256
+[000000]     16 mix_buffer_size 1024
+[000000]     17 map_scancodes 
+[000000]     18 version 0.2.5c
+[000000]     19 volume 256
+[000000]     20 root_path C:/Users/kraus/AppData/Roaming/pico-8/carts/
+[000000]     21 cdata_path C:/Users/kraus/AppData/Roaming/pico-8/cdata/
+[000000]     22 joystick_index 0
+[000000]     23 button_keys 0 0 0 0 0 0 0 0 0 0 0 0 0 
+[000000]     24 live_notes 0
+[000000]     25 cursor_snap 0
+[000000]     26 gui_theme 0
+[000000]     27 screenshot_scale 3
+[000000]     28 gif_scale 3
+[000000]     29 gif_len 16
+[000000]     30 gif_reset_mode 0
+[000000]     31 host_framerate_control 1
+[000000]     32 splore_filter 0
+[000000]     33 tab_width 1
+[000000]     34 draw_tabs 0
+[000000]     35 record_activity_log 1
+[000000]     36 allow_function_keys 1
+[000000]     37 check_for_cart_updates 1
+[000000]     38 auto_hide_mouse_cursor 5
+[000000]     39 aggressive_backups 0
+[000000]     40 periodic_backups 20
+[000000]     41 transform_screen 0
+[000000]     42 gfx_grid_lines 0
+[000000]   
+[000000]   codo_system_init
+[000176]   Compiled against SDL version: 2.0.2
+[000176]   Linked against SDL version:   2.0.9
+[000176]   Current video driver: windows
+[000176]   codo_reset_timer
+[000176]   codo_gui_init
+[000176]   codo_keys_init
+[000176]   codo_text_init
+[000177]   codo_video_init
+[000177]   codo_mouse_init
+[000177]   codo_joystick_init
+[000177]   Reading controller mappings: C:/Users/kraus/AppData/Roaming/pico-8/sdl_controllers.txt
+[000178]   searching for joysticks
+[000178]     found 0 joysticks
+[000178]   ok
+[000178] ok
+[000189] codo_load_pod: C:/Program Files (x86)/PICO-8/pico8.dat ok 
+[000192] codo_set_screen 128 128 8 100
+[000192]  window size: 640 540
+[000283]   setting filter to nearest (screen_mode 0  back page width: 128)
+  renderer direct3d:
+   flags: 0x0000000E ( |  | )
+   texture formats (3): ARGB8888, YV12, IYUV
+   max texture size: 16384x16384
+[000286]  desktop size: 1920 1080
+[000286] ok
+[000288] codo_sound_init mix_buffer_size: 1024
+[000288] codo_sound_init
+[000288] SDL_INIT_AUDIO ok
+[000302] SDL_OpenAudio ok
+[000302]  freq:22050
+ channels:1
+[000302] Built-in audio drivers: 0 wasapi 1 directsound 2 winmm 3 disk 4 dummy
+[000302] Current audio driver: wasapi
+[000302] splore_init
+[000302] could not load favourites file: C:/Users/kraus/AppData/Roaming/pico-8/favourites.txt
+[507093] run_cart current_filename: C:/Users/kraus/AppData/Roaming/pico-8/carts/test.p8 running_filename: test.p8 running_cart_lid: 
+[695334] run_cart current_filename: C:/Users/kraus/AppData/Roaming/pico-8/carts/test.p8 running_filename: test.p8 running_cart_lid: 
+[737512] run_cart current_filename: C:/Users/kraus/AppData/Roaming/pico-8/carts/test.p8 running_filename: test.p8 running_cart_lid: 
+[797545] run_cart current_filename: C:/Users/kraus/AppData/Roaming/pico-8/carts/test.p8 running_filename: test.p8 running_cart_lid: 
+[812758] run_cart current_filename: C:/Users/kraus/AppData/Roaming/pico-8/carts/test.p8 running_filename: test.p8 running_cart_lid: 
+[832881] run_cart current_filename: C:/Users/kraus/AppData/Roaming/pico-8/carts/test.p8 running_filename: test.p8 running_cart_lid: 
+[994559] run_cart current_filename: C:/Users/kraus/AppData/Roaming/pico-8/carts/test.p8 running_filename: test.p8 running_cart_lid: 
+[1339319] run_cart current_filename: C:/Users/kraus/AppData/Roaming/pico-8/carts/test.p8 running_filename: test.p8 running_cart_lid: 
+[1427942] run_cart current_filename: C:/Users/kraus/AppData/Roaming/pico-8/carts/test.p8 running_filename: test.p8 running_cart_lid: 
+[1762670] run_cart current_filename: C:/Users/kraus/AppData/Roaming/pico-8/carts/test.p8 running_filename: test.p8 running_cart_lid: 
+[1848678] run_cart current_filename: C:/Users/kraus/AppData/Roaming/pico-8/carts/test.p8 running_filename: test.p8 running_cart_lid: 
+[2140746] run_cart current_filename: C:/Users/kraus/AppData/Roaming/pico-8/carts/test.p8 running_filename: test.p8 running_cart_lid: 
+[2158339] run_cart current_filename: C:/Users/kraus/AppData/Roaming/pico-8/carts/test.p8 running_filename: test.p8 running_cart_lid: 
+[2168572] run_cart current_filename: C:/Users/kraus/AppData/Roaming/pico-8/carts/test.p8 running_filename: test.p8 running_cart_lid: 
+[2203389] run_cart current_filename: C:/Users/kraus/AppData/Roaming/pico-8/carts/test.p8 running_filename: test.p8 running_cart_lid: 
+[2230565] run_cart current_filename: C:/Users/kraus/AppData/Roaming/pico-8/carts/test.p8 running_filename: test.p8 running_cart_lid: 
+[2277713] run_cart current_filename: C:/Users/kraus/AppData/Roaming/pico-8/carts/test.p8 running_filename: test.p8 running_cart_lid: 
+[2482231] run_cart current_filename: C:/Users/kraus/AppData/Roaming/pico-8/carts/test.p8 running_filename: test.p8 running_cart_lid: 
+[2499524] run_cart current_filename: C:/Users/kraus/AppData/Roaming/pico-8/carts/test.p8 running_filename: test.p8 running_cart_lid: 
+[2530860] run_cart current_filename: C:/Users/kraus/AppData/Roaming/pico-8/carts/test.p8 running_filename: test.p8 running_cart_lid: 
+[2775001] run_cart current_filename: C:/Users/kraus/AppData/Roaming/pico-8/carts/test.p8 running_filename: test.p8 running_cart_lid: 
+[2847423] run_cart current_filename: C:/Users/kraus/AppData/Roaming/pico-8/carts/test.p8 running_filename: test.p8 running_cart_lid: 
+[2912775] run_cart current_filename: C:/Users/kraus/AppData/Roaming/pico-8/carts/test.p8 running_filename: test.p8 running_cart_lid: 
+[2916118] run_cart current_filename: C:/Users/kraus/AppData/Roaming/pico-8/carts/test.p8 running_filename: test.p8 running_cart_lid: 
+[2936228] run_cart current_filename: C:/Users/kraus/AppData/Roaming/pico-8/carts/test.p8 running_filename: test.p8 running_cart_lid: 
+[3155065] run_cart current_filename: C:/Users/kraus/AppData/Roaming/pico-8/carts/test.p8 running_filename: test.p8 running_cart_lid: 
+[3229432] run_cart current_filename: C:/Users/kraus/AppData/Roaming/pico-8/carts/test.p8 running_filename: test.p8 running_cart_lid: 
+[3271177] run_cart current_filename: C:/Users/kraus/AppData/Roaming/pico-8/carts/test.p8 running_filename: test.p8 running_cart_lid: 
+[3379629] run_cart current_filename: C:/Users/kraus/AppData/Roaming/pico-8/carts/test.p8 running_filename: test.p8 running_cart_lid: 
+[4117702] run_cart current_filename: C:/Users/kraus/AppData/Roaming/pico-8/carts/test.p8 running_filename: test.p8 running_cart_lid: 
+[4134297] run_cart current_filename: C:/Users/kraus/AppData/Roaming/pico-8/carts/test.p8 running_filename: test.p8 running_cart_lid: 
+[4187759] run_cart current_filename: C:/Users/kraus/AppData/Roaming/pico-8/carts/test.p8 running_filename: test.p8 running_cart_lid: 
+[4263021] run_cart current_filename: C:/Users/kraus/AppData/Roaming/pico-8/carts/test.p8 running_filename: test.p8 running_cart_lid: 
+[4433834] run_cart current_filename: C:/Users/kraus/AppData/Roaming/pico-8/carts/test.p8 running_filename: test.p8 running_cart_lid: 
+[4576463] run_cart current_filename: C:/Users/kraus/AppData/Roaming/pico-8/carts/test.p8 running_filename: test.p8 running_cart_lid: 
+[4655137] run_cart current_filename: C:/Users/kraus/AppData/Roaming/pico-8/carts/test.p8 running_filename: test.p8 running_cart_lid: 
+[4895731] run_cart current_filename: C:/Users/kraus/AppData/Roaming/pico-8/carts/test.p8 running_filename: test.p8 running_cart_lid: 
+[4977256] run_cart current_filename: C:/Users/kraus/AppData/Roaming/pico-8/carts/test.p8 running_filename: test.p8 running_cart_lid: 
+[5054165] run_cart current_filename: C:/Users/kraus/AppData/Roaming/pico-8/carts/test.p8 running_filename: test.p8 running_cart_lid: 
+[5152456] run_cart current_filename: C:/Users/kraus/AppData/Roaming/pico-8/carts/test.p8 running_filename: test.p8 running_cart_lid: 
+[20187575] prepare_loaded_cart: looking for sandboxed cart patch: C:/Users/kraus/AppData/Roaming/pico-8/cstore/__0d2f7c52a3f08b7f75363d731e7555c0f3f1822f.p8
+[20187575]   not found
+[20188212] run_cart current_filename: C:/Users/kraus/AppData/Roaming/pico-8/bbs/carts/janeriruki-4.p8.png running_filename:  running_cart_lid: janeriruki-4
+[20221510] prepare_loaded_cart: looking for sandboxed cart patch: C:/Users/kraus/AppData/Roaming/pico-8/cstore/__84e2c06941e6368ecdd5a92004b25971eed0431b.p8
+[20221510]   not found
+[20222141] run_cart current_filename: C:/Users/kraus/AppData/Roaming/pico-8/bbs/carts/lowmemsky-1.p8.png running_filename:  running_cart_lid: lowmemsky-1
+[20604448] prepare_loaded_cart: looking for sandboxed cart patch: C:/Users/kraus/AppData/Roaming/pico-8/cstore/__5bc47788ac912979d6f639848b57ff141b5474b7.p8
+[20604448]   not found
+[20605084] run_cart current_filename: C:/Users/kraus/AppData/Roaming/pico-8/bbs/carts/speako8-2.p8.png running_filename:  running_cart_lid: speako8-2
+[20640518] prepare_loaded_cart: looking for sandboxed cart patch: C:/Users/kraus/AppData/Roaming/pico-8/cstore/__46707506b9bb76462c7ec64470f3d024972387c7.p8
+[20640518]   not found
+[20641148] run_cart current_filename: C:/Users/kraus/AppData/Roaming/pico-8/bbs/carts/downstreamdream-1.p8.png running_filename:  running_cart_lid: downstreamdream-1
+[20676853] prepare_loaded_cart: looking for sandboxed cart patch: C:/Users/kraus/AppData/Roaming/pico-8/cstore/__cdf1c27c079fe8326166addb097dfc54a66ab418.p8
+[20676853]   not found
+[20677484] run_cart current_filename: C:/Users/kraus/AppData/Roaming/pico-8/bbs/carts/picokaiju-9.p8.png running_filename:  running_cart_lid: picokaiju-9
+[20773156] prepare_loaded_cart: looking for sandboxed cart patch: C:/Users/kraus/AppData/Roaming/pico-8/cstore/__cbe9a37f0fbda8200a3b76c535a390f88e6cbf0d.p8
+[20773156]   not found
+[20773786] run_cart current_filename: C:/Users/kraus/AppData/Roaming/pico-8/bbs/carts/harold-6.p8.png running_filename:  running_cart_lid: harold-6
+[22346362] codo_save_png result: 0  file: C:/Users/kraus/AppData/Roaming/pico-8/backup/20220904_164219_harold-6.p8.png
+[22439499] prepare_loaded_cart: looking for sandboxed cart patch: C:/Users/kraus/AppData/Roaming/pico-8/cstore/__cbe9a37f0fbda8200a3b76c535a390f88e6cbf0d.p8
+[22439499]   not found
+[22440134] run_cart current_filename: C:/Users/kraus/AppData/Roaming/pico-8/bbs/carts/harold-6.p8.png running_filename:  running_cart_lid: harold-6
+[22449293] prepare_loaded_cart: looking for sandboxed cart patch: C:/Users/kraus/AppData/Roaming/pico-8/cstore/__e5aba9965e545d35c75686db4fae38c13ea9f196.p8
+[22449293]   not found
+[22449926] run_cart current_filename: C:/Users/kraus/AppData/Roaming/pico-8/bbs/carts/nest2-10.p8.png running_filename:  running_cart_lid: nest2-10
+[22504326] prepare_loaded_cart: looking for sandboxed cart patch: C:/Users/kraus/AppData/Roaming/pico-8/cstore/__bf56c3ed14e4e18826d353030eabd74160ad835a.p8
+[22504326]   not found
+[22504959] run_cart current_filename: C:/Users/kraus/AppData/Roaming/pico-8/bbs/carts/to_a_starling_v1_1-5.p8.png running_filename:  running_cart_lid: to_a_starling_v1_1-5
+[22681567] prepare_loaded_cart: looking for sandboxed cart patch: C:/Users/kraus/AppData/Roaming/pico-8/cstore/__c78c16e07c5df6fe8bdc5f04e3f12184937f9019.p8
+[22681567]   not found
+[22682205] run_cart current_filename: C:/Users/kraus/AppData/Roaming/pico-8/bbs/carts/golfsunday-0.p8.png running_filename:  running_cart_lid: golfsunday-0
+[22773271] run_cart current_filename: C:/Users/kraus/AppData/Roaming/pico-8/bbs/carts/golfsunday-0.p8.png running_filename:  running_cart_lid: golfsunday-0
+[24408175] codo_save_png result: 0  file: C:/Users/kraus/AppData/Roaming/pico-8/backup/20220904_171641_golfsunday-0.p8.png
+[24415768] run_cart current_filename: C:/Users/kraus/AppData/Roaming/pico-8/bbs/carts/golfsunday-0.p8.png running_filename:  running_cart_lid: golfsunday-0
+[24424303] run_cart current_filename: C:/Users/kraus/AppData/Roaming/pico-8/carts/test.p8 running_filename: test.p8 running_cart_lid: 
+[24791607] run_cart current_filename: C:/Users/kraus/AppData/Roaming/pico-8/carts/test.p8 running_filename: test.p8 running_cart_lid: 
+[24861516] run_cart current_filename: C:/Users/kraus/AppData/Roaming/pico-8/carts/test.p8 running_filename: test.p8 running_cart_lid: 
+[24912219] run_cart current_filename: C:/Users/kraus/AppData/Roaming/pico-8/carts/test.p8 running_filename: test.p8 running_cart_lid: 
+[25079973] run_cart current_filename: C:/Users/kraus/AppData/Roaming/pico-8/carts/test.p8 running_filename: test.p8 running_cart_lid: 
+[25201181] run_cart current_filename: C:/Users/kraus/AppData/Roaming/pico-8/carts/test.p8 running_filename: test.p8 running_cart_lid: 
+[25285671] run_cart current_filename: C:/Users/kraus/AppData/Roaming/pico-8/carts/test.p8 running_filename: test.p8 running_cart_lid: 
+[25501423] run_cart current_filename: C:/Users/kraus/AppData/Roaming/pico-8/carts/test.p8 running_filename: test.p8 running_cart_lid: 
+[25822108] run_cart current_filename: C:/Users/kraus/AppData/Roaming/pico-8/carts/test.p8 running_filename: test.p8 running_cart_lid: 
+[26225954] run_cart current_filename: C:/Users/kraus/AppData/Roaming/pico-8/carts/test.p8 running_filename: test.p8 running_cart_lid: 
+[26753404] run_cart current_filename: C:/Users/kraus/AppData/Roaming/pico-8/carts/test.p8 running_filename: test.p8 running_cart_lid: 
+[26830088] run_cart current_filename: C:/Users/kraus/AppData/Roaming/pico-8/carts/test.p8 running_filename: test.p8 running_cart_lid: 
+[26899243] run_cart current_filename: C:/Users/kraus/AppData/Roaming/pico-8/carts/test.p8 running_filename: test.p8 running_cart_lid: 
+[26915159] run_cart current_filename: C:/Users/kraus/AppData/Roaming/pico-8/carts/test.p8 running_filename: test.p8 running_cart_lid: 
+[27142110] run_cart current_filename: C:/Users/kraus/AppData/Roaming/pico-8/carts/test.p8 running_filename: test.p8 running_cart_lid: 
+[27175059] run_cart current_filename: C:/Users/kraus/AppData/Roaming/pico-8/carts/test.p8 running_filename: test.p8 running_cart_lid: 
+[27204708] run_cart current_filename: C:/Users/kraus/AppData/Roaming/pico-8/carts/test.p8 running_filename: test.p8 running_cart_lid: 
+[27289253] run_cart current_filename: C:/Users/kraus/AppData/Roaming/pico-8/carts/test.p8 running_filename: test.p8 running_cart_lid: 
+[27357381] run_cart current_filename: C:/Users/kraus/AppData/Roaming/pico-8/carts/test.p8 running_filename: test.p8 running_cart_lid: 
+[27646141] run_cart current_filename: C:/Users/kraus/AppData/Roaming/pico-8/carts/test.p8 running_filename: test.p8 running_cart_lid: 
+[27713507] run_cart current_filename: C:/Users/kraus/AppData/Roaming/pico-8/carts/test.p8 running_filename: test.p8 running_cart_lid: 
+[27825116] run_cart current_filename: C:/Users/kraus/AppData/Roaming/pico-8/carts/test.p8 running_filename: test.p8 running_cart_lid: 
+[27893060] run_cart current_filename: C:/Users/kraus/AppData/Roaming/pico-8/carts/test.p8 running_filename: test.p8 running_cart_lid: 
+[27949214] run_cart current_filename: C:/Users/kraus/AppData/Roaming/pico-8/carts/test.p8 running_filename: test.p8 running_cart_lid: 
+[28159840] run_cart current_filename: C:/Users/kraus/AppData/Roaming/pico-8/carts/test.p8 running_filename: test.p8 running_cart_lid: 
+[28236874] run_cart current_filename: C:/Users/kraus/AppData/Roaming/pico-8/carts/test.p8 running_filename: test.p8 running_cart_lid: 
+[28338504] run_cart current_filename: C:/Users/kraus/AppData/Roaming/pico-8/carts/test.p8 running_filename: test.p8 running_cart_lid: 
+[28355341] run_cart current_filename: C:/Users/kraus/AppData/Roaming/pico-8/carts/test.p8 running_filename: test.p8 running_cart_lid: 
+[28367834] run_cart current_filename: C:/Users/kraus/AppData/Roaming/pico-8/carts/test.p8 running_filename: test.p8 running_cart_lid: 
+[28392418] run_cart current_filename: C:/Users/kraus/AppData/Roaming/pico-8/carts/test.p8 running_filename: test.p8 running_cart_lid: 
+[28412029] run_cart current_filename: C:/Users/kraus/AppData/Roaming/pico-8/carts/test.p8 running_filename: test.p8 running_cart_lid: 
+[32519083] run_cart current_filename: C:/Users/kraus/AppData/Roaming/pico-8/carts/test.p8 running_filename: test.p8 running_cart_lid: 
+[34019631] prepare_loaded_cart: looking for sandboxed cart patch: C:/Users/kraus/AppData/Roaming/pico-8/cstore/__c78c16e07c5df6fe8bdc5f04e3f12184937f9019.p8
+[34019631]   not found
+[34020262] run_cart current_filename: C:/Users/kraus/AppData/Roaming/pico-8/bbs/carts/golfsunday-0.p8.png running_filename:  running_cart_lid: golfsunday-0
+[34486065] prepare_loaded_cart: looking for sandboxed cart patch: C:/Users/kraus/AppData/Roaming/pico-8/cstore/__508d0c1e2544730b626c3ca095211634b484e8f3.p8
+[34486065]   not found
+[34486697] run_cart current_filename: C:/Users/kraus/AppData/Roaming/pico-8/bbs/carts/lowmemsky-1.p8.png running_filename:  running_cart_lid: lowmemsky-1
+[34600044] prepare_loaded_cart: looking for sandboxed cart patch: C:/Users/kraus/AppData/Roaming/pico-8/cstore/__84e2c06941e6368ecdd5a92004b25971eed0431b.p8
+[34600044]   not found
+[34600681] run_cart current_filename: C:/Users/kraus/AppData/Roaming/pico-8/bbs/carts/lowmemsky-1.p8.png running_filename:  running_cart_lid: lowmemsky-1
+[34860662] run_cart current_filename: C:/Users/kraus/AppData/Roaming/pico-8/carts/test.p8 running_filename: test.p8 running_cart_lid: 
+[34964664] run_cart current_filename: C:/Users/kraus/AppData/Roaming/pico-8/carts/test.p8 running_filename: test.p8 running_cart_lid: 
+[34979322] run_cart current_filename: C:/Users/kraus/AppData/Roaming/pico-8/carts/test.p8 running_filename: test.p8 running_cart_lid: 
+[35286649] run_cart current_filename: C:/Users/kraus/AppData/Roaming/pico-8/carts/test.p8 running_filename: test.p8 running_cart_lid: 
+[35340026] run_cart current_filename: C:/Users/kraus/AppData/Roaming/pico-8/carts/test.p8 running_filename: test.p8 running_cart_lid: 
+[35478222] run_cart current_filename: C:/Users/kraus/AppData/Roaming/pico-8/carts/test.p8 running_filename: test.p8 running_cart_lid: 
+[35710032] run_cart current_filename: C:/Users/kraus/AppData/Roaming/pico-8/carts/test.p8 running_filename: test.p8 running_cart_lid: 
+[35744207] run_cart current_filename: C:/Users/kraus/AppData/Roaming/pico-8/carts/test.p8 running_filename: test.p8 running_cart_lid: 
+[36220226] run_cart current_filename: C:/Users/kraus/AppData/Roaming/pico-8/carts/test.p8 running_filename: test.p8 running_cart_lid: 
+[36265152] run_cart current_filename: C:/Users/kraus/AppData/Roaming/pico-8/carts/test.p8 running_filename: test.p8 running_cart_lid: 
+[36363721] run_cart current_filename: C:/Users/kraus/AppData/Roaming/pico-8/carts/test.p8 running_filename: test.p8 running_cart_lid: 
+[36381876] run_cart current_filename: C:/Users/kraus/AppData/Roaming/pico-8/carts/test.p8 running_filename: test.p8 running_cart_lid: 
+[36527766] run_cart current_filename: C:/Users/kraus/AppData/Roaming/pico-8/carts/test.p8 running_filename: test.p8 running_cart_lid: 
+[36649534] run_cart current_filename: C:/Users/kraus/AppData/Roaming/pico-8/carts/test.p8 running_filename: test.p8 running_cart_lid: 
+[37103056] run_cart current_filename: C:/Users/kraus/AppData/Roaming/pico-8/carts/test.p8 running_filename: test.p8 running_cart_lid: 
+[37115782] run_cart current_filename: C:/Users/kraus/AppData/Roaming/pico-8/carts/test.p8 running_filename: test.p8 running_cart_lid: 
+[37147906] run_cart current_filename: C:/Users/kraus/AppData/Roaming/pico-8/carts/test.p8 running_filename: test.p8 running_cart_lid: 
+[37178339] run_cart current_filename: C:/Users/kraus/AppData/Roaming/pico-8/carts/test.p8 running_filename: test.p8 running_cart_lid: 
+[37217340] run_cart current_filename: C:/Users/kraus/AppData/Roaming/pico-8/carts/test.p8 running_filename: test.p8 running_cart_lid: 
+[37244598] run_cart current_filename: C:/Users/kraus/AppData/Roaming/pico-8/carts/test.p8 running_filename: test.p8 running_cart_lid: 
+[37275477] run_cart current_filename: C:/Users/kraus/AppData/Roaming/pico-8/carts/test.p8 running_filename: test.p8 running_cart_lid: 
+[37363662] run_cart current_filename: C:/Users/kraus/AppData/Roaming/pico-8/carts/test.p8 running_filename: test.p8 running_cart_lid: 
+[37592486] run_cart current_filename: C:/Users/kraus/AppData/Roaming/pico-8/carts/test.p8 running_filename: test.p8 running_cart_lid: 
+[37720038] run_cart current_filename: C:/Users/kraus/AppData/Roaming/pico-8/carts/test.p8 running_filename: test.p8 running_cart_lid: 
+[37729799] run_cart current_filename: C:/Users/kraus/AppData/Roaming/pico-8/carts/test.p8 running_filename: test.p8 running_cart_lid: 
+[37765056] run_cart current_filename: C:/Users/kraus/AppData/Roaming/pico-8/carts/test.p8 running_filename: test.p8 running_cart_lid: 
+[37783487] run_cart current_filename: C:/Users/kraus/AppData/Roaming/pico-8/carts/test.p8 running_filename: test.p8 running_cart_lid: 
+[37791544] run_cart current_filename: C:/Users/kraus/AppData/Roaming/pico-8/carts/test.p8 running_filename: test.p8 running_cart_lid: 
+[37927718] run_cart current_filename: C:/Users/kraus/AppData/Roaming/pico-8/carts/test.p8 running_filename: test.p8 running_cart_lid: 
+[37943024] run_cart current_filename: C:/Users/kraus/AppData/Roaming/pico-8/carts/test.p8 running_filename: test.p8 running_cart_lid: 
+[38019967] run_cart current_filename: C:/Users/kraus/AppData/Roaming/pico-8/carts/test.p8 running_filename: test.p8 running_cart_lid: 
+[38053995] run_cart current_filename: C:/Users/kraus/AppData/Roaming/pico-8/carts/test.p8 running_filename: test.p8 running_cart_lid: 
+[38143052] run_cart current_filename: C:/Users/kraus/AppData/Roaming/pico-8/carts/test.p8 running_filename: test.p8 running_cart_lid: 
+[38183115] run_cart current_filename: C:/Users/kraus/AppData/Roaming/pico-8/carts/test.p8 running_filename: test.p8 running_cart_lid: 
+[38208445] run_cart current_filename: C:/Users/kraus/AppData/Roaming/pico-8/carts/test.p8 running_filename: test.p8 running_cart_lid: 
+[38228815] run_cart current_filename: C:/Users/kraus/AppData/Roaming/pico-8/carts/test.p8 running_filename: test.p8 running_cart_lid: 
+[38309960] run_cart current_filename: C:/Users/kraus/AppData/Roaming/pico-8/carts/test.p8 running_filename: test.p8 running_cart_lid: 
+[38327052] run_cart current_filename: C:/Users/kraus/AppData/Roaming/pico-8/carts/test.p8 running_filename: test.p8 running_cart_lid: 
+[38387338] run_cart current_filename: C:/Users/kraus/AppData/Roaming/pico-8/carts/test.p8 running_filename: test.p8 running_cart_lid: 
+[38406075] run_cart current_filename: C:/Users/kraus/AppData/Roaming/pico-8/carts/test.p8 running_filename: test.p8 running_cart_lid: 
+[39912437] run_cart current_filename: C:/Users/kraus/AppData/Roaming/pico-8/carts/test.p8 running_filename: test.p8 running_cart_lid: 
+[39994090] run_cart current_filename: C:/Users/kraus/AppData/Roaming/pico-8/carts/test.p8 running_filename: test.p8 running_cart_lid: 
+[40103078] run_cart current_filename: C:/Users/kraus/AppData/Roaming/pico-8/carts/test.p8 running_filename: test.p8 running_cart_lid: 
+[40174930] run_cart current_filename: C:/Users/kraus/AppData/Roaming/pico-8/carts/test.p8 running_filename: test.p8 running_cart_lid: 
+[40179209] run_cart current_filename: C:/Users/kraus/AppData/Roaming/pico-8/carts/test.p8 running_filename: test.p8 running_cart_lid: 
+[40199371] run_cart current_filename: C:/Users/kraus/AppData/Roaming/pico-8/carts/test.p8 running_filename: test.p8 running_cart_lid: 
+[40280064] run_cart current_filename: C:/Users/kraus/AppData/Roaming/pico-8/carts/test.p8 running_filename: test.p8 running_cart_lid: 
+[40332243] run_cart current_filename: C:/Users/kraus/AppData/Roaming/pico-8/carts/test.p8 running_filename: test.p8 running_cart_lid: 
+[40526421] run_cart current_filename: C:/Users/kraus/AppData/Roaming/pico-8/carts/test.p8 running_filename: test.p8 running_cart_lid: 
+[40601721] run_cart current_filename: C:/Users/kraus/AppData/Roaming/pico-8/carts/test.p8 running_filename: test.p8 running_cart_lid: 
+[40604965] run_cart current_filename: C:/Users/kraus/AppData/Roaming/pico-8/carts/test.p8 running_filename: test.p8 running_cart_lid: 
+[40628500] run_cart current_filename: C:/Users/kraus/AppData/Roaming/pico-8/carts/test.p8 running_filename: test.p8 running_cart_lid: 
+[40722704] run_cart current_filename: C:/Users/kraus/AppData/Roaming/pico-8/carts/test.p8 running_filename: test.p8 running_cart_lid: 
+[40727151] run_cart current_filename: C:/Users/kraus/AppData/Roaming/pico-8/carts/test.p8 running_filename: test.p8 running_cart_lid: 
+[40987484] run_cart current_filename: C:/Users/kraus/AppData/Roaming/pico-8/carts/test.p8 running_filename: test.p8 running_cart_lid: 
+[41024079] run_cart current_filename: C:/Users/kraus/AppData/Roaming/pico-8/carts/test.p8 running_filename: test.p8 running_cart_lid: 
+[41145634] run_cart current_filename: C:/Users/kraus/AppData/Roaming/pico-8/carts/test.p8 running_filename: test.p8 running_cart_lid: 
+[41324420] run_cart current_filename: C:/Users/kraus/AppData/Roaming/pico-8/carts/test.p8 running_filename: test.p8 running_cart_lid: 
+[41336275] run_cart current_filename: C:/Users/kraus/AppData/Roaming/pico-8/carts/test.p8 running_filename: test.p8 running_cart_lid: 
+[41369622] run_cart current_filename: C:/Users/kraus/AppData/Roaming/pico-8/carts/test.p8 running_filename: test.p8 running_cart_lid: 
+[41387613] run_cart current_filename: C:/Users/kraus/AppData/Roaming/pico-8/carts/test.p8 running_filename: test.p8 running_cart_lid: 
+[41397734] run_cart current_filename: C:/Users/kraus/AppData/Roaming/pico-8/carts/test.p8 running_filename: test.p8 running_cart_lid: 
+[41443344] run_cart current_filename: C:/Users/kraus/AppData/Roaming/pico-8/carts/test.p8 running_filename: test.p8 running_cart_lid: 
+[41455835] run_cart current_filename: C:/Users/kraus/AppData/Roaming/pico-8/carts/test.p8 running_filename: test.p8 running_cart_lid: 
+[41499797] run_cart current_filename: C:/Users/kraus/AppData/Roaming/pico-8/carts/test.p8 running_filename: test.p8 running_cart_lid: 
+[41543567] run_cart current_filename: C:/Users/kraus/AppData/Roaming/pico-8/carts/test.p8 running_filename: test.p8 running_cart_lid: 
+[41593202] run_cart current_filename: C:/Users/kraus/AppData/Roaming/pico-8/carts/test.p8 running_filename: test.p8 running_cart_lid: 
+[41607091] run_cart current_filename: C:/Users/kraus/AppData/Roaming/pico-8/carts/test.p8 running_filename: test.p8 running_cart_lid: 
+[41625555] run_cart current_filename: C:/Users/kraus/AppData/Roaming/pico-8/carts/test.p8 running_filename: test.p8 running_cart_lid: 
+[41696054] run_cart current_filename: C:/Users/kraus/AppData/Roaming/pico-8/carts/test.p8 running_filename: test.p8 running_cart_lid: 
+[41703232] run_cart current_filename: C:/Users/kraus/AppData/Roaming/pico-8/carts/test.p8 running_filename: test.p8 running_cart_lid: 
+[41804407] run_cart current_filename: C:/Users/kraus/AppData/Roaming/pico-8/carts/test.p8 running_filename: test.p8 running_cart_lid: 
+[41967559] run_cart current_filename: C:/Users/kraus/AppData/Roaming/pico-8/carts/test.p8 running_filename: test.p8 running_cart_lid: 
+[42063690] run_cart current_filename: C:/Users/kraus/AppData/Roaming/pico-8/carts/test.p8 running_filename: test.p8 running_cart_lid: 
+[42120917] run_cart current_filename: C:/Users/kraus/AppData/Roaming/pico-8/carts/test.p8 running_filename: test.p8 running_cart_lid: 
+[42165712] run_cart current_filename: C:/Users/kraus/AppData/Roaming/pico-8/carts/test.p8 running_filename: test.p8 running_cart_lid: 
+[42195027] run_cart current_filename: C:/Users/kraus/AppData/Roaming/pico-8/carts/test.p8 running_filename: test.p8 running_cart_lid: 
+[42252577] run_cart current_filename: C:/Users/kraus/AppData/Roaming/pico-8/carts/test.p8 running_filename: test.p8 running_cart_lid: 
+[42273777] run_cart current_filename: C:/Users/kraus/AppData/Roaming/pico-8/carts/test.p8 running_filename: test.p8 running_cart_lid: 
+[42291134] run_cart current_filename: C:/Users/kraus/AppData/Roaming/pico-8/carts/test.p8 running_filename: test.p8 running_cart_lid: 
+[42337532] run_cart current_filename: C:/Users/kraus/AppData/Roaming/pico-8/carts/test.p8 running_filename: test.p8 running_cart_lid: 
+[42517050] run_cart current_filename: C:/Users/kraus/AppData/Roaming/pico-8/carts/test.p8 running_filename: test.p8 running_cart_lid: 
+[42530816] run_cart current_filename: C:/Users/kraus/AppData/Roaming/pico-8/carts/test.p8 running_filename: test.p8 running_cart_lid: 
+[42628770] run_cart current_filename: C:/Users/kraus/AppData/Roaming/pico-8/carts/test.p8 running_filename: test.p8 running_cart_lid: 
+[42640792] run_cart current_filename: C:/Users/kraus/AppData/Roaming/pico-8/carts/test.p8 running_filename: test.p8 running_cart_lid: 
+[42813283] run_cart current_filename: C:/Users/kraus/AppData/Roaming/pico-8/carts/test.p8 running_filename: test.p8 running_cart_lid: 
+[42910909] run_cart current_filename: C:/Users/kraus/AppData/Roaming/pico-8/carts/test.p8 running_filename: test.p8 running_cart_lid: 
+[42998881] run_cart current_filename: C:/Users/kraus/AppData/Roaming/pico-8/carts/test.p8 running_filename: test.p8 running_cart_lid: 
+[43051591] run_cart current_filename: C:/Users/kraus/AppData/Roaming/pico-8/carts/test.p8 running_filename: test.p8 running_cart_lid: 
+[43058646] run_cart current_filename: C:/Users/kraus/AppData/Roaming/pico-8/carts/test.p8 running_filename: test.p8 running_cart_lid: 
+[43094284] run_cart current_filename: C:/Users/kraus/AppData/Roaming/pico-8/carts/test.p8 running_filename: test.p8 running_cart_lid: 
+[43145258] run_cart current_filename: C:/Users/kraus/AppData/Roaming/pico-8/carts/test.p8 running_filename: test.p8 running_cart_lid: 
+[43199963] run_cart current_filename: C:/Users/kraus/AppData/Roaming/pico-8/carts/test.p8 running_filename: test.p8 running_cart_lid: 
+[43234186] run_cart current_filename: C:/Users/kraus/AppData/Roaming/pico-8/carts/test.p8 running_filename: test.p8 running_cart_lid: 
+[43267924] run_cart current_filename: C:/Users/kraus/AppData/Roaming/pico-8/carts/test.p8 running_filename: test.p8 running_cart_lid: 
+[43921226] run_cart current_filename: C:/Users/kraus/AppData/Roaming/pico-8/carts/test.p8 running_filename: test.p8 running_cart_lid: 
+[43969557] run_cart current_filename: C:/Users/kraus/AppData/Roaming/pico-8/carts/test.p8 running_filename: test.p8 running_cart_lid: 
+[44010589] run_cart current_filename: C:/Users/kraus/AppData/Roaming/pico-8/carts/test.p8 running_filename: test.p8 running_cart_lid: 
+[44041020] run_cart current_filename: C:/Users/kraus/AppData/Roaming/pico-8/carts/test.p8 running_filename: test.p8 running_cart_lid: 
+[44062136] run_cart current_filename: C:/Users/kraus/AppData/Roaming/pico-8/carts/test.p8 running_filename: test.p8 running_cart_lid: 
+[44076805] run_cart current_filename: C:/Users/kraus/AppData/Roaming/pico-8/carts/test.p8 running_filename: test.p8 running_cart_lid: 
+[44320087] run_cart current_filename: C:/Users/kraus/AppData/Roaming/pico-8/carts/test.p8 running_filename: test.p8 running_cart_lid: 
+[44342136] run_cart current_filename: C:/Users/kraus/AppData/Roaming/pico-8/carts/test.p8 running_filename: test.p8 running_cart_lid: 
+[44381834] run_cart current_filename: C:/Users/kraus/AppData/Roaming/pico-8/carts/test.p8 running_filename: test.p8 running_cart_lid: 
+[44415899] run_cart current_filename: C:/Users/kraus/AppData/Roaming/pico-8/carts/test.p8 running_filename: test.p8 running_cart_lid: 
+[44441373] run_cart current_filename: C:/Users/kraus/AppData/Roaming/pico-8/carts/test.p8 running_filename: test.p8 running_cart_lid: 
+[44464590] run_cart current_filename: C:/Users/kraus/AppData/Roaming/pico-8/carts/test.p8 running_filename: test.p8 running_cart_lid: 
+[44487851] run_cart current_filename: C:/Users/kraus/AppData/Roaming/pico-8/carts/test.p8 running_filename: test.p8 running_cart_lid: 
+[44519506] run_cart current_filename: C:/Users/kraus/AppData/Roaming/pico-8/carts/test.p8 running_filename: test.p8 running_cart_lid: 
+[44683176] run_cart current_filename: C:/Users/kraus/AppData/Roaming/pico-8/carts/test.p8 running_filename: test.p8 running_cart_lid: 
+[44697942] run_cart current_filename: C:/Users/kraus/AppData/Roaming/pico-8/carts/test.p8 running_filename: test.p8 running_cart_lid: 
+[44721542] run_cart current_filename: C:/Users/kraus/AppData/Roaming/pico-8/carts/test.p8 running_filename: test.p8 running_cart_lid: 
+[44738349] run_cart current_filename: C:/Users/kraus/AppData/Roaming/pico-8/carts/test.p8 running_filename: test.p8 running_cart_lid: 
+[44781010] run_cart current_filename: C:/Users/kraus/AppData/Roaming/pico-8/carts/test.p8 running_filename: test.p8 running_cart_lid: 
+[44825598] run_cart current_filename: C:/Users/kraus/AppData/Roaming/pico-8/carts/test.p8 running_filename: test.p8 running_cart_lid: 
+[44835918] run_cart current_filename: C:/Users/kraus/AppData/Roaming/pico-8/carts/test.p8 running_filename: test.p8 running_cart_lid: 
+[44870835] run_cart current_filename: C:/Users/kraus/AppData/Roaming/pico-8/carts/test.p8 running_filename: test.p8 running_cart_lid: 
+[44880786] run_cart current_filename: C:/Users/kraus/AppData/Roaming/pico-8/carts/test.p8 running_filename: test.p8 running_cart_lid: 
+[44899191] run_cart current_filename: C:/Users/kraus/AppData/Roaming/pico-8/carts/test.p8 running_filename: test.p8 running_cart_lid: 
+[44927813] run_cart current_filename: C:/Users/kraus/AppData/Roaming/pico-8/carts/test.p8 running_filename: test.p8 running_cart_lid: 
+[44943806] run_cart current_filename: C:/Users/kraus/AppData/Roaming/pico-8/carts/test.p8 running_filename: test.p8 running_cart_lid: 
+[44998491] run_cart current_filename: C:/Users/kraus/AppData/Roaming/pico-8/carts/test.p8 running_filename: test.p8 running_cart_lid: 
+[45041028] run_cart current_filename: C:/Users/kraus/AppData/Roaming/pico-8/carts/test.p8 running_filename: test.p8 running_cart_lid: 
+[45070517] run_cart current_filename: C:/Users/kraus/AppData/Roaming/pico-8/carts/test.p8 running_filename: test.p8 running_cart_lid: 
+[45187516] run_cart current_filename: C:/Users/kraus/AppData/Roaming/pico-8/carts/test.p8 running_filename: test.p8 running_cart_lid: 
+[45208558] run_cart current_filename: C:/Users/kraus/AppData/Roaming/pico-8/carts/test.p8 running_filename: test.p8 running_cart_lid: 
+[45227453] run_cart current_filename: C:/Users/kraus/AppData/Roaming/pico-8/carts/test.p8 running_filename: test.p8 running_cart_lid: 
+[45238883] run_cart current_filename: C:/Users/kraus/AppData/Roaming/pico-8/carts/test.p8 running_filename: test.p8 running_cart_lid: 
+[45248638] run_cart current_filename: C:/Users/kraus/AppData/Roaming/pico-8/carts/test.p8 running_filename: test.p8 running_cart_lid: 
+[45306328] run_cart current_filename: C:/Users/kraus/AppData/Roaming/pico-8/carts/test.p8 running_filename: test.p8 running_cart_lid: 
+[45924921] run_cart current_filename: C:/Users/kraus/AppData/Roaming/pico-8/carts/test.p8 running_filename: test.p8 running_cart_lid: 
+[45979706] run_cart current_filename: C:/Users/kraus/AppData/Roaming/pico-8/carts/test.p8 running_filename: test.p8 running_cart_lid: 
+[46137346] run_cart current_filename: C:/Users/kraus/AppData/Roaming/pico-8/carts/test.p8 running_filename: test.p8 running_cart_lid: 
+[46158989] run_cart current_filename: C:/Users/kraus/AppData/Roaming/pico-8/carts/test.p8 running_filename: test.p8 running_cart_lid: 
+[46176621] run_cart current_filename: C:/Users/kraus/AppData/Roaming/pico-8/carts/test.p8 running_filename: test.p8 running_cart_lid: 
+[46193194] run_cart current_filename: C:/Users/kraus/AppData/Roaming/pico-8/carts/test.p8 running_filename: test.p8 running_cart_lid: 
+[46379408] run_cart current_filename: C:/Users/kraus/AppData/Roaming/pico-8/carts/test.p8 running_filename: test.p8 running_cart_lid: 
+[46778699] run_cart current_filename: C:/Users/kraus/AppData/Roaming/pico-8/carts/test.p8 running_filename: test.p8 running_cart_lid: 
+[47118726] run_cart current_filename: C:/Users/kraus/AppData/Roaming/pico-8/carts/test.p8 running_filename: test.p8 running_cart_lid: 
+[47152875] run_cart current_filename: C:/Users/kraus/AppData/Roaming/pico-8/carts/test.p8 running_filename: test.p8 running_cart_lid: 
+[47650100] run_cart current_filename: C:/Users/kraus/AppData/Roaming/pico-8/carts/test.p8 running_filename: test.p8 running_cart_lid: 
+[47675551] run_cart current_filename: C:/Users/kraus/AppData/Roaming/pico-8/carts/test.p8 running_filename: test.p8 running_cart_lid: 
+[47753711] run_cart current_filename: C:/Users/kraus/AppData/Roaming/pico-8/carts/test.p8 running_filename: test.p8 running_cart_lid: 
+[47808453] run_cart current_filename: C:/Users/kraus/AppData/Roaming/pico-8/carts/test.p8 running_filename: test.p8 running_cart_lid: 
+[47851721] run_cart current_filename: C:/Users/kraus/AppData/Roaming/pico-8/carts/test.p8 running_filename: test.p8 running_cart_lid: 
+[48099076] run_cart current_filename: C:/Users/kraus/AppData/Roaming/pico-8/carts/test.p8 running_filename: test.p8 running_cart_lid: 
+[48130135] run_cart current_filename: C:/Users/kraus/AppData/Roaming/pico-8/carts/test.p8 running_filename: test.p8 running_cart_lid: 
+[48275873] run_cart current_filename: C:/Users/kraus/AppData/Roaming/pico-8/carts/test.p8 running_filename: test.p8 running_cart_lid: 
+[48347795] run_cart current_filename: C:/Users/kraus/AppData/Roaming/pico-8/carts/test.p8 running_filename: test.p8 running_cart_lid: 
+[48374904] run_cart current_filename: C:/Users/kraus/AppData/Roaming/pico-8/carts/test.p8 running_filename: test.p8 running_cart_lid: 
+[48382153] run_cart current_filename: C:/Users/kraus/AppData/Roaming/pico-8/carts/test.p8 running_filename: test.p8 running_cart_lid: 
+[48421452] run_cart current_filename: C:/Users/kraus/AppData/Roaming/pico-8/carts/test.p8 running_filename: test.p8 running_cart_lid: 
+[48438524] run_cart current_filename: C:/Users/kraus/AppData/Roaming/pico-8/carts/test.p8 running_filename: test.p8 running_cart_lid: 
+[48472247] run_cart current_filename: C:/Users/kraus/AppData/Roaming/pico-8/carts/test.p8 running_filename: test.p8 running_cart_lid: 
+[48482687] run_cart current_filename: C:/Users/kraus/AppData/Roaming/pico-8/carts/test.p8 running_filename: test.p8 running_cart_lid: 
+[48555359] run_cart current_filename: C:/Users/kraus/AppData/Roaming/pico-8/carts/test.p8 running_filename: test.p8 running_cart_lid: 
+[48583852] run_cart current_filename: C:/Users/kraus/AppData/Roaming/pico-8/carts/test.p8 running_filename: test.p8 running_cart_lid: 
+[48611478] run_cart current_filename: C:/Users/kraus/AppData/Roaming/pico-8/carts/test.p8 running_filename: test.p8 running_cart_lid: 
+[48661619] run_cart current_filename: C:/Users/kraus/AppData/Roaming/pico-8/carts/test.p8 running_filename: test.p8 running_cart_lid: 
+[48718334] run_cart current_filename: C:/Users/kraus/AppData/Roaming/pico-8/carts/test.p8 running_filename: test.p8 running_cart_lid: 
+[49063122] run_cart current_filename: C:/Users/kraus/AppData/Roaming/pico-8/carts/test.p8 running_filename: test.p8 running_cart_lid: 
+[49096004] run_cart current_filename: C:/Users/kraus/AppData/Roaming/pico-8/carts/test.p8 running_filename: test.p8 running_cart_lid: 
+[49113438] run_cart current_filename: C:/Users/kraus/AppData/Roaming/pico-8/carts/test.p8 running_filename: test.p8 running_cart_lid: 
